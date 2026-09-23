@@ -1,0 +1,8 @@
+{
+  "title": "nvfieldmap: calibration and uncertainty-quantified field mapping for wide-field NV-diamond magnetometry",
+  "upload_type": "software",
+  "creators": [{"name": "Ejalonibu, Hammed A."}],
+  "description": "Open pipeline for wide-field CW-ODMR NV-diamond magnetometry: frame corrections, multi-Lorentzian fitting, exact-Hamiltonian field inversion, per-bin uncertainty budget and synthetic-recovery validation.",
+  "keywords": ["NV center", "diamond", "magnetometry", "ODMR", "low-field MRI", "field mapping"],
+  "license": "MIT"
+}
