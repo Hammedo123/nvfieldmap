@@ -1,0 +1,22 @@
+# Python build / cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ipynb_checkpoints/
+# Environments
+.venv/
+venv/
+# Private notes and raw data never go to GitHub
+notes_private/
+raw/
+calibration/
+*.nc
+*.h5
+*.tif
+*.tiff
+# OS
+.DS_Store
+Thumbs.db
