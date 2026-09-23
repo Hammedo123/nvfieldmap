@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "nvfieldmap: calibration and uncertainty-quantified field mapping for wide-field NV-diamond magnetometry"
+authors:
+  - family-names: Ejalonibu
+    given-names: Hammed A.
+    # orcid: https://orcid.org/0000-0000-0000-0000   <- add yours
+license: MIT
+version: 0.1.0.dev0
+# date-released and doi are added at the v1.0.0 release; do not backdate.

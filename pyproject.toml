@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nvfieldmap"
+version = "0.1.0.dev0"
+description = "Calibration and uncertainty-quantified field mapping for wide-field CW-ODMR NV-diamond magnetometry"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Hammed A. Ejalonibu" }]
+dependencies = ["numpy", "scipy", "xarray", "h5netcdf", "matplotlib", "pyyaml"]
+[project.optional-dependencies]
+test = ["pytest"]
+[project.scripts]
+nvfieldmap = "nvfieldmap.cli:main"
+[tool.setuptools]
+packages = ["nvfieldmap"]
